@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+/*
+Created by: Jyostna Designs
+
+[TABLE OF CONTENTS]
+
+1.  RESET STYLES
+2.  HEADER STYLES
+    2.1 HEADER LEFT
+    2.2 HEADER RIGHT SIDE DROPDOWNS
+3. LEFT SIDEBAR
+4. MAIN WRAPPER STYLES
+5. LEFT MENU COLLAPSE STYLES
+6. CUSTOM STYLES
+7. MEDIA QUERIES
+
+*/
+
+/*===import bootstrap variables===*/
+
+/*****  1.RESET STYLES  *****/
+
+html {
+  background: none repeat scroll 0 0 #fff;
+  overflow-x: hidden;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  font-size: small;
+}
+
+html,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  background: none repeat scroll 0 0 #fff;
+  overflow-x: hidden;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  font-size: small;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body,
+#app,
+#app > div,
+#app div.wrapper {
+  min-height: calc(100vh - 102px);
+}
+
+body.modal-open,
+body.modal-open .header {
+  padding-right: 0 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+a:hover,
+a {
+  text-decoration: none !important;
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  vertical-align: middle;
+}
+
+/**Dropdown menus**/
+
+.dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2300;
+  margin-top: 0;
+  border: none;
+  outline: none;
+}
+
+/*********6. CUSTOM STYLES *********/
+
+.submenu-content .name {
+  vertical-align: text-top !important;
+}
+
+/*text-area resize*/
+
+.resize_vertical {
+  resize: vertical;
+}
+
+h4.card-header {
+  font-size: 16px;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+/**************card bg colors*******************/
+
+.bg-primary-card {
+  border: 1px solid #337ab7;
+}
+
+.bg-primary-card > .card-header {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.bg-info-card {
+  border: 1px solid #4fc1e9;
+}
+
+.bg-info-card > .card-header {
+  background-color: #4fc1e9;
+  color: #fff;
+}
+
+.bg-warning-card {
+  border: 1px solid #fea115;
+}
+
+.bg-warning-card > .card-header {
+  background-color: #fea115;
+  color: #fff;
+}
+
+.bg-danger-card {
+  border: 1px solid #fd7570;
+}
+
+.bg-danger-card > .card-header {
+  background-color: #fd7570;
+  color: #fff;
+}
+
+.bg-success-card {
+  border: 1px solid #16af81;
+}
+
+.bg-success-card > .card-header {
+  background-color: #16af81;
+  color: #fff;
+}
+
+.bg-primary-card:hover,
+.bg-info-card:hover,
+.bg-danger-card:hover,
+.bg-warning-card:hover,
+.bg-success-card:hover,
+.card:hover {
+  box-shadow: 1px 1px 38px -8px #8e8c8e;
+}
+
+.btn-link,
+.btn {
+  cursor: pointer;
+}
+
+/*=======hide unwanted content in print======*/
+
+@media print {
+  header.header,
+  aside.left-aside,
+  section.content-header,
+  #scroll {
+    display: none !important;
+  }
+
+  .table-responsive {
+    display: inline-table;
+    width: 100%;
+  }
+}
+
+/*=======hide unwanted content in print======*/
+
+/*============header styles=======*/
+
+header .navbar-right .dropdown-menu {
+  padding: 0;
+}
+
+header .navbar-right .dropdownheader .nav.nav-tabs,
+header .navbar-right .dropdown-footer,
+header .navbar-right .dropdownheader:hover .nav.nav-tabs,
+header .navbar-right .dropdown-footer:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+header .navbar-right .show > .btn-secondary.dropdown-toggle {
+  background-color: #EEEEEE;
+  color: #000;
+  border-color: #EEEEEE;
+}
+
+header .navbar-right .btn-link:focus,
+header .navbar-right .btn-link:hover,
+header .navbar-right .btn-link:active {
+  text-decoration: none;
+}
+
+header .navbar-right .btn .btn:active {
+  border: none;
+}
+
+header .navbar-right .btn-group > button {
+  vertical-align: top;
+  color: #000;
+}
+
+header .navbar-right .btn-group > button:hover {
+  background-color: #ededed;
+  color: #000;
+}
+
+@media (max-width: 560px) {
+  .notifications-menu .dropdown-menu.dropdown-menu-right {
+    right: -123px;
+  }
+}
+
+.notifications-menu .dropdown-menu {
+  width: 300px;
+}
+
+.dropdownheader .nav-tabs .nav-link {
+  color: #000;
+}
+
+.dropdown-menu .nav-tabs .nav-link:focus,
+.dropdown-menu .nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.dropdown-menu .nav-tabs .nav-link.active,
+.dropdown-menu .nav-tabs .nav-item.show .nav-link {
+  color: #000;
+  background-color: #eee;
+}
+
+.nav-tabs > li > a {
+  color: #000;
+}
+
+.drpodowtext {
+  color: #333;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.drpodowtext:hover {
+  margin-left: 12px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.dropdown_content a {
+  width: 100%;
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  width: 50px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #111;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/*============header styles=======*/
+
+/*====================form editors Start============*/
+
+.ql-container .ql-editor {
+  min-height: 20em;
+  padding-bottom: 1em;
+  max-height: 25em;
+}
+
+.nav-tabs:focus {
+  outline: none;
+}
+
+/*====================form editors end============*/
+
+/*=========calendar========*/
+
+.full-calendar-body .dates .dates-events .events-week .events-day {
+  min-height: 100px !important;
+}
+
+.full-calendar-header > div.header-center {
+  font-size: 18px;
+}
+
+/*=========calendar========*/
+
+/*======chartist=====*/
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: #8dcee4 !important;
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+  stroke: #4fc1e9 !important;
+}
+
+.ct-series-c .ct-line,
+.ct-series-c .ct-point {
+  stroke: #16AF81 !important;
+}
+
+.ct-series-d .ct-line,
+.ct-series-d .ct-point {
+  stroke: #8dcee4 !important;
+}
+
+/*======chartist bars=====*/
+
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: #97d9ef !important;
+}
+
+.ct-series-b .ct-bar {
+  /* Colour of your bars */
+  stroke: #4fc1e9 !important;
+}
+
+.ct-label {
+  font-size: 10px;
+  color: #000;
+}
+
+/*======pie chart=====*/
+
+.ct-series-a .ct-slice-pie {
+  fill: #7faff7 !important;
+}
+
+.ct-series-b .ct-slice-pie {
+  fill: #6f8dd5 !important;
+}
+
+.ct-series-c .ct-slice-pie {
+  fill: #11bca9 !important;
+}
+
+.v-chartist-container {
+  height: 300px;
+}
+
+/*====== donut chart=====*/
+
+.ct-series-a .ct-slice-donut {
+  stroke: #11bca9 !important;
+}
+
+.ct-series-a .ct-slice-donut {
+  stroke: #6f8dd5 !important;
+}
+
+.ct-series-a .ct-slice-donut {
+  stroke: #7faff7 !important;
+}
+
+.ct-series-c .ct-slice-donut {
+  stroke: #11bca9 !important;
+}
+
+.ct-series-b .ct-slice-donut {
+  stroke: #6f8dd5 !important;
+}
+
+/*=======form-elements======*/
+
+.drp_align .dropdown-menu {
+  left: -100%;
+}
+
+.form_elemntsdropdown .dropdown-item {
+  padding: 10px 15px;
+}
+
+/*=======form-elements======*/
+
+/*========breadcrumbs====*/
+
+.breadcrumb1 > .breadcrumb-item + .breadcrumb-item::before {
+  content: "\BB";
+}
+
+.breadcrumb2 > .breadcrumb-item + .breadcrumb-item::before {
+  content: "\203A" !important;
+}
+
+.breadcrumb3 > .breadcrumb-item + .breadcrumb-item::before {
+  content: "\2013";
+}
+
+/*========breadcrumbs====*/
+
+/*==========datepickers=========*/
+
+.vdp-datepicker input,
+.vdp-datepicker select {
+  padding: 0.75em 0.5em;
+  font-size: 100%;
+  border: 1px solid #dcdccc;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .vdp-datepicker__calendar {
+    width: 100% !important;
+  }
+}
+
+/*==========datepickers=========*/
+
+.pull-right {
+  float: right;
+}
+
+.car-header:first-child {
+  border: none !important;
+}
+
+.form-control {
+  -webkit-transition: initial;
+  transition: initial;
+}
+

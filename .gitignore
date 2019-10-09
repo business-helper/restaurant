@@ -1,0 +1,6 @@
+.env
+.htaccess
+/vendor
+.idea
+/node_modules
+/public/Images/**/*

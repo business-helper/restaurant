@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eastern-cosmos-244414",
+  "private_key_id": "e07d51f7b0439b582884623ebea2b7ee07e9f6fe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDNY2Nvpf+T5Ylo\nTOjcCpCVe690KwTxVYordgxmxc9xnURvFvxG0X/TrzeGAmSvQjqALEezZJ55UAcV\naqBb7XDJnX2gqHzdjVqPvnLcDdwqcNdc+za6qLEzEY3oz4Pyn99aq0b7zaAE5vsU\nukLJyfODzPQxeWh//TL8K46FePWMJxZ+gBGmUc1nGY67kNC/9Q7qLvR5bUn6zqMs\nbpWBaahyEaVPOFJtpnI5EMaeL+PPVp04EbcEt1ZJ9FTZA8w9Lu40RZAVQmb8mzX6\nmyAdZJi5n+adTEwf8T5+R9fdwe2ckFTEJlnpQUJkg4ogiYnHa+KIrXHPWiWaObP0\nWHYFZPwbAgMBAAECggEAYPJNcNlrio15rwxCi/7GoXCY8F4P/rRQPFSD5Qzw7qF7\nuG4ilXD1A9/8dtpxWRKLV43PKFvRu9RtC4xhdhLdPqWCs49kJRXATgJo5/r41eWe\nmmqPukq/HapnECHHmAIjpQIcxuWX50h58p46wVH8ilV3XFUA4Q0MgGA07UabrNO7\n/T8RBBMQm21QYiHNflvLu0IrRxR8KcguB44e5/6JntLf9fREakGrsyanaO9lqFz7\nOqI1fw+1Og1GKfhXHiKsgCIt2QHY1JJbDrcQYFCF532DcBTQR++7PV6FPfAth1T7\nH4TvQa2kjNjYe61UYFjFoY25FB+0im/gd9K5MwZOtQKBgQDnOcIKwW4H3E1fDjAm\nKwNnKGjRt+Qeds9tnWrqQlfW6FdWWZ8AKnKQmUNqU7LL+9Vn1y7SGI6jCTNwxyRr\nFcrJiL1GI6fg6qmYFqHRWUXEwfNXVUSUGR+hvJyrCoHQQ+P7GjX2ZGZPkyIywY/Q\nYL/isWl/tyXoYtLGZPeC5BvPbQKBgQDjZPEmrvcwUDphgkkHw18dgVEIRJ5Msbh6\nyjqRuk4wDNEQWAW0Akv7937JrSwKpB4mP/M7tLk41r9w3jVSA5J7JrEXcu6qrXsy\nW4FA5sNAynUG9znBBBVoh1g1KLVlYG52QHAMmqQ4bHLHfwlZF8eiwTqUr3/cF+fv\nsYnhYpvcpwKBgAFPF2UeMTREL//wwZ8FsVA9L1K4msb9XzE8qeVHmN2zlQL9IORM\nWTeuVm5cqO90roGW+0HfN7d+jtb9mZwtlGdNqdyiyQmB6pHc1u+rdLSncGw3JFs+\nRSqSOcTSG2gFal36iQGrEdUzfQcSh3Dji1KKNJGvhLxrCsxqt+f6yJmFAoGBAI2a\nL12ieQXZ//D2u9mcvR9Xhwl6CYXC6hl003IqLURYxtvBpJOLFpwqbAbU0ucxeiDh\nk+srSGhvujlj9ppC5TXRS1hJ1vvsGhqqxtuOmCpBqQyUaZ+blmVIWxKHbiZaHY9/\n4wbGSdtlFTjMEBst5sCgSYWLoDiDnogx66WxzVNjAoGAF5/J9cQeDurfnBVYhrJ0\nC5F7eVi68+g0X8iHCs2pYpKfMFuUeqcDMYpKxlhwaWLWo0ffim9PtFnYjFY728z8\ntTrmwcXnknOQeL8YflRFcW7fAtaxoxn1yoXRjtDCLNdiJnCMClpngV0LzEm+DwIK\nAvgVBU0M4bY5lgsYQ72yH/4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bowlplay@eastern-cosmos-244414.iam.gserviceaccount.com",
+  "client_id": "109329371830120164222",
+  "auth_uri": "//accounts.google.com/o/oauth2/auth",
+  "token_uri": "//oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "//www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "//www.googleapis.com/robot/v1/metadata/x509/bowlplay%40eastern-cosmos-244414.iam.gserviceaccount.com"
+}
